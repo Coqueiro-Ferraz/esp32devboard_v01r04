@@ -7,7 +7,7 @@
 void app_main(void)
 {
     char lin0[] = "DevBoard  v01r04";
-    char lin1[] = "E[   ] ## S[   ]";
+    char lin1[] = "E[ x ] ## S[   ]";
     vTaskDelay(500/portTICK_PERIOD_MS);
 
     devboard.global.init();
